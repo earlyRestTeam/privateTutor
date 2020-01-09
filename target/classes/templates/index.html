@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:background="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/css/css.css" rel="stylesheet" type="text/css" />
+<script src="/js/jquery.min.1.8.2.js" type="text/javascript"></script>
+<script src="/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script src="/js/fk.js" type="text/javascript"></script>
+<title>大学生家教信息平台</title>
+</head>
+<body>
+
+<!--顶部样式-->
+<!-- 代码 开始 -->
+<div id="online_qq_layer">
+    <div id="online_qq_tab">
+      <div class="online_icon">
+        <a title="" id="floatShow" style="display:none" href="javascript:void(0);">&nbsp;</a>
+        <a title="" id="floatHide" style="display:block" href="javascript:void(0);">&nbsp;</a>
+      </div>
+    </div>
+    <div id="onlineService" style="display: block;">
+      <div class="online_windows overz">
+          <div class="online_w_top"></div>
+          <div class="online_w_c overz">
+            <div id="online_qq">
+                <ul class="qq_ul fn-clear">
+<li class="kfli" onclick="openQQ('635145856')"><img src="/images/Line_qq.png" border="0" /> 业务咨询</li>
+<li class="kfli" onclick="openQQ('2568225426')"><img src="/images/Line_qq.png" border="0" /> 客服服务</li>
+<li class="kfli" onclick="openQQ('1315797165')"><img src="/images/Line_qq.png" border="0" /> 投诉建议</li>
+                            </ul>
+            </div>
+            <div class="phone_Advisory">
+ <p class="phone_img"></p>
+ <p class="Number">0000-000-000</p>
+</div>
+          </div>
+          <div class="online_w_bottom"></div>
+      </div>
+    </div>
+</div>
+
+<script>  
+    var online = new Array();  
+</script>  
+<script type= "text/javascript" src="http://webpresence.qq.com/getonline?Type=1&799129700:363576965:2193744200:1315797152" ></script>  
+<script type="text/javascript">  
+    for (var i = 0; i < online.length; i++) {  
+        if (online[i] == 0) {  
+            $(".kfli img").eq(i).attr("src","static/images/not_qq.png");
+        } else {  
+            $(".kfli img").eq(i).attr("src",'static/images/Line_qq.png');
+        }  
+    }  
+        
+  
+    window.onscroll = function () {  
+        if (document.documentElement.scrollTop + document.body.scrollTop > 100) {  
+            document.getElementById("scrollto").style.display = "block";  
+        }  
+        else {  
+            document.getElementById("scrollto").style.display = "none";  
+        }  
+    }  
+    function OpenSmallWindows(strURL, scrollbar, width, height, left, top) {  
+        window.open(strURL, "_blank",  
+     "status=no,resizable=0,toolbar=no,menubar=no,scrollbars=" + scrollbar + ",width=" + width + ",height=" + height + ",left=" + left + ",top=" + top + "");  
+    }  
+    function openQQ(qq) {  
+        window.location.href = "tencent://message/?uin=" + qq + "&Site=gbgjs.com&Menu=yes";  
+    }  
+</script>    
+<div id="top">
+ <div class="top">
+  <div class="top_herder clearfix">
+   <a href="#"><img src="/images/logo.jpg" width="124px" height="100px"/><span class="wenzi">让孩子每天更进一步</span></a>
+   <input name="" type="text"  class="text_Searching"/><input name="" type="button"  class="button_Search"/>
+  </div>
+
+  <!--菜单栏样式-->
+  <div class="">
+ <ul id="nav" class="nav clearfix">
+			<li class="nLi">
+				<h3><a href="/index" target="_blank">首页</a><em></em></h3>
+			</li>
+			<li class="nLi"><h3><a href="/about_us" target="_blank">关于我们</a></h3><em></em></li>
+			<li class="nLi">
+					<h3><a href="/announcement" target="_blank">查看公告</a></h3><em></em>
+			</li>
+			<li class="nLi "><h3><a href="/faculty_info" target="_blank">师资</a></h3><em></em></li>
+			<li class="nLi">
+				<h3><a href="/personal_center" target="_blank">个人中心</a></h3><em></em>
+			</li>
+			<li class="nLi "><h3><a href="/contact_us" target="_blank">联系我们</a></h3><em></em></li>
+			<li class="nLi "><h3><a href="/login" target="_blank">登录</a></h3><em></em></li>
+			<li class="nLi ">
+					<h3><a href="/register" target="_blank">注册</a></h3><em></em>
+					<ul class="sub">
+					   <em></em>
+						<li><a href="/register">普通用户注册</a></li>
+						<li><a href="/teacher_register">教师注册</a></li>
+					</ul>
+			</li>
+			
+		</ul>
+		<script id="jsID" type="text/javascript">
+
+			jQuery("#nav").slide({
+				type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+				titCell:".nLi", //鼠标触发对象
+				targetCell:".sub", //titCell里面包含的要显示/消失的对象
+				effect:"slideDown", //targetCell下拉效果
+				delayTime:300 , //效果时间
+				triggerTime:0, //鼠标延迟触发时间（默认150）
+				returnDefault:true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+			});
+		</script>
+  </div>
+ </div>
+</div>
+
+<!--幻灯片-->
+<div class="banner">
+   <div class="Slide">
+  <div id="slideBox" class="slideBox">
+<!--			<div class="hd">-->
+<!--				<ul></ul>-->
+<!--			</div>-->
+			<div class="bd" style="width: 100%;height: 520px">
+				<ul>
+					<li><a href="#" target="_blank"><div style="background:url(/images/hen.png) no-repeat; background-position:center; background-size: 100% auto; height: 490px"></div></a></li>
+					<li><a href="#" target="_blank"><div style="background:url(/images/hen1.png) no-repeat; background-position:center; background-size: 100% auto; height: 490px"></div></a></li>
+					<li><a href="#" target="_blank"><div style="background:url(/images/12.jpg) no-repeat; background-position:center; background-size: 100% auto; height: 490px"></div></a></li>
+				</ul>
+			</div>
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+		</div>
+		<script type="text/javascript">
+		jQuery(".slideBox").slide({
+			titCell:".hd ul",
+			mainCell:".bd ul",
+			effect:"leftLoop",
+			autoPlay:true,
+			autoPage:true,
+			triggerTime:1000,
+			interTime:5000
+		});
+		</script>
+  </div>
+  </div>
+
+<div style="background-color: #60CFEC">
+    <!--内容样式-->
+    <div class="main">
+        <div style="background-color: #9BCFEC">
+            <!--新闻样式-->
+            <div class="MEWS_style Plate">
+                <div class="title_name">教资动态 <a href="#" class="more">MORE</a></div>
+                <div class="clearfix">
+                    <div id="Mews_slideBox" class="Mews_slideBox">
+                        <div class="hd">
+                            <ul><li>1</li><li>2</li><li>3</li></ul>
+                        </div>
+                        <div class="bd">
+                            <ul>
+                                <li>
+                                    <div class="bg"></div>
+                                    <div><a href="#" target="_blank"><img src="/images/t1.png" /></a></div>
+                                    <div class="title"><a href="">效果图1</a></div>
+                                </li>
+                                <li>
+                                    <div class="bg"></div>
+                                    <div><a href="#" target="_blank"><img src="/images/t2.png" /></a></div>
+                                    <div class="title"><a href="">效果图2</a></div>
+                                </li>
+                                <li>
+                                    <div class="bg"></div>
+                                    <div><a href="#" target="_blank"><img src="/images/t3.png" /></a></div>
+                                    <div class="title"><a href="">效果图3</a></div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+                        <a class="prev" href="javascript:void(0)"></a>
+                        <a class="next" href="javascript:void(0)"></a>
+
+                    </div>
+
+                    <script type="text/javascript">
+                        jQuery(".Mews_slideBox").slide({mainCell:".bd ul",autoPlay:true});
+                    </script>
+                    <!--新闻列表-->
+                    <div class="News_list">
+                        <ul>
+                            <li><a href="#">信息安全专业介绍</a><span style="color: black">2015-10-11</span></li>
+                            <li><a href="#">大数据分析应用与大数据信息安全讲座</a><span style="color: black">2015-10-11</span></li>
+                            <li><a href="#">成都市晶林科技有限公司--三江漂流</a><span style="color: black">2015-10-11</span></li>
+                            <li><a href="#">推进教育综合改革，我省决定在部分地区和学校开展试点。</a><span style="color: black">2015-10-11</span></li>
+                            <li><a href="#">深耕大数据，神州数码与 IBM 携手共建解决方案演示中心</a><span style="color: black">2015-10-11</span></li>
+                            <li><a href="#">协作共赢　IBM 助力北方区合作伙伴创新</a><span style="color: black">2015-10-11</span></li>
+                            <li><a href="#">协作共赢　IBM 助力北方区合作伙伴创新</a><span style="color: black">2015-10-11</span></li>
+                            <li><a href="#">协作共赢　IBM 助力北方区合作伙伴创新</a><span style="color: black">2015-10-11</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #9fcdff">
+            <!--教学风采-->
+            <div class="School_Charisma Plate">
+                <div class="title_name">教学风采<b>TEACHING STYLE</b> <a href="#" class="more">MORE</a></div>
+                <div id="Collect_Products" class="Collect_Products">
+                    <div class="hd">
+                        <a class="next">&lt;</a>
+                        <a class="prev">&gt;</a>
+                    </div>
+                    <div class="bd">
+                        <ul class="picList">
+                            <li><div class="pic"><a href=""><img src="/images/xue8.jpg" /></a></div></li>
+                            <li><div class="pic"><a href=""><img src="/images/xue-1.jpg" /></a></div></li>
+                            <li><div class="pic"><a href=""><img src="/images/xue-2.jpg" /></a></div></li>
+                            <li><div class="pic"><a href=""><img src="/images/xue7.jpg" /></a></div></li>
+                            <li><div class="pic"><a href=""><img src="/images/xue-4.jpg" /></a></div></li>
+                        </ul>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    jQuery("#Collect_Products").slide({ mainCell:".bd ul",effect:"leftLoop",vis:4,autoPlay:false });
+                </script>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--合作企业样式-->
+<div class="Cooperate">
+  <div class="main">
+     <div id="Cooperate_logo" class="Cooperate_logo">
+						<div class="hd">
+							<a class="next">&lt;</a>
+							<a class="prev">&gt;</a>
+						</div>
+						<div class="bd">
+							<ul class="picList">
+								<li><div class="pic"><a href=""><img src="/images/xue8.jpg" /></a></div></li>
+								<li><div class="pic"><a href=""><img src="/images/xue-1.jpg" /></a></div></li>
+								<li><div class="pic"><a href=""><img src="/images/xue-2.jpg" /></a></div></li>
+								<li><div class="pic"><a href=""><img src="/images/xue7.jpg" /></a></div></li>
+                                <li><div class="pic"><a href=""><img src="/images/xue-4.jpg" /></a></div></li>
+							</ul>
+						</div>
+					</div>
+	<script type="text/javascript">jQuery("#Cooperate_logo").slide({ mainCell:".bd ul",effect:"leftLoop",vis:5,autoPlay:false });</script>
+  </div>
+</div>
+
+<!--底部样式-->
+<div class="footer clearfix">
+ <div class="bottom">
+  <div class="Copyright">
+	<h1 font-size='20' color = "#005500">大学生家教信息平台</h1>
+    <p><a href="index.html">首页</a>   |   <a href="about_us.html">关于我们</a>   |    <a href="contact_us.html">联系我们</a>   |   <a href="faculty_info.html">教资</a>   |   实时动态</p>
+	<p>Copyright © 2019 All Rights Reserved 版权所有：我的网站</p>
+  </div>
+  <div class="phone">
+     <h1>24小时服务热线</h1>
+	 <p class="telephone">000-000-0000</p>
+  </div>
+ </div>
+</div>
+</body>
+</html>

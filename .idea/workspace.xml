@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ee1cd69-e23c-496f-8f13-b8db873a5a9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrivateTutor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/c.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.2019-12-27.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.2019-12-30.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.2019-12-31.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.2020-01-01.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.2020-01-07.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.2020-01-08.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/s.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/warn/warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/PrivateTutor.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/RunningApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/controllers/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/generator/CommentGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/generator/Generator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/AdvertisingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/AdvertisingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/AnnouncementMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/AnnouncementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/CollectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/CollectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/ComplaintMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/ComplaintMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/JobInformationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/JobInformationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/MessageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Advertising.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdvertisingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdvertisingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdvertisingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AdvertisingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Announcement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AnnouncementExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AnnouncementExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AnnouncementExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/AnnouncementExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Collect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CollectExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CollectExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CollectExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CollectExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CommentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CommentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CommentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/CommentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Complaint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/ComplaintExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/ComplaintExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/ComplaintExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/ComplaintExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/JobInformation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/JobInformationExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/JobInformationExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/JobInformationExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/JobInformationExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/MessageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/MessageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/MessageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/MessageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/UsersExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/UsersExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/UsersExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/pojo/UsersExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/security/LoginEntityHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/security/LoginFailureHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/security/LoginSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/security/LoginUrlEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/security/MyUsernamePasswordAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/services/IUserServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/services/impl/userServicesImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/APIResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/Connect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/ExceptionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/FileUploadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/PayException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/StaticPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/UUIDUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/WebCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czb/privatetutor/utils/WebUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dataSource.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_01_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_02_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_03_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_07_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_08_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_09_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_10_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_12_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/Customers/LOGO_13_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/atlantis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/atlantis.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/atlantis.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/css/fonts.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/flaticon/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/flaticon/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/flaticon/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/flaticon/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/flaticon/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/flaticon/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/flaticon/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/fontawesome/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/simple-line-icons/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/simple-line-icons/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/simple-line-icons/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/summernote/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/summernote/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/fonts/summernote/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/arashmil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/bg-404.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/bg-abstract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/bg-abstract2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/blogpost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/chadengle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example1-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example10-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example11-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example12-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example2-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example3-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example4-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example5-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example6-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example7-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example8-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example9-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/example9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/logoinvoice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/examples/product8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/af.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/al.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/am.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/an.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/as.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/aw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/az.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/be.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/by.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/bz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/catalonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/co.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/cz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/dj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/dk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/dm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/dz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/eg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/eh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/et.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/europeanunion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/fam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/fi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/fj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/fk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/fm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/fo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/gy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/hk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/hm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/hn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ht.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/il.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/io.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/iq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/jm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/jo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/kg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/kh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/kn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/kp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/kr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/kw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/kz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/lb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/lc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/lk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/lt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/lu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/lv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/mz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/nc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/nf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/nl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/np.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/nr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/nu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/nz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/om.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/pw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/re.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/rs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/rw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/si.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/so.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/sz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/td.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/th.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/tz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/um.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/uy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/uz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/va.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/vc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/vg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/vn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/vu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/wf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/ye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/za.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/zm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/flags/zw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/img-shadow.gvdesign" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/img-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/jm_denis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/logo2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/logoalternatif.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/logoproduct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/logoproduct2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/logoproduct3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/mlane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/productimg/product9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/profile2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/sauro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/talha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/img/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/atlantis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/atlantis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/atlantis2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/core/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/core/jquery.3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/bootstrap-notify/bootstrap-notify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/chart-circle/circles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/chart.js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/datatables/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jquery.sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/jquery.vmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/continents/jquery.vmap.africa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/continents/jquery.vmap.asia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/continents/jquery.vmap.australia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/continents/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/continents/jquery.vmap.north-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/continents/jquery.vmap.south-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.algeria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.argentina.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.brazil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.canada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.croatia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.greece.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.indonesia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.iran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.iraq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.new_regions_france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.serbia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.tunisia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.turkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.ukraine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.usa.counties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.usa.districts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/plugin/webfont/webfont.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/setting-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/setting-demo2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_layouts-colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_layouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_opacity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_outlinefocus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_responsive-horizontal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_activityfeed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_colorinputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_gutters.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_imagecheck.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_listgroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_navsearch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_navtabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_paginations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_selectgroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_stamps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/components/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/plugins/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/plugins/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/plugins/_jqueryscrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/plugins/_jqueryui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/sass/atlantis/plugins/_sweetalert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/Line_qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/QQ_phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/Searching_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/beijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/dizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/hen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/hen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/keji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/no_doc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/not_qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/pagenation/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/pagenation/ellipsis_new.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/pagenation/nextShowCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/pagenation/nextShowCaseHover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/pagenation/prevHideCase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/slider-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/slider-arrow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/t5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/user_face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/user_info_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/xue8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/yuan_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/zixun_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/img/logo_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/img/logowz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/fk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.SuperSlide.2.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.min.1.8.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/about_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/charts/sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/compact-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/avatars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/flaticons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/font-awesome-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/gridsystem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/panels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/simple-line-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/sweetalert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/components/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/forms/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/icon-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/maps/jqvmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/overlay-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/sidebar-style-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/starter-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/static-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/tables/datatables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/tables/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/announcement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/contact_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/detaileds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/faculty_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/forget_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/mycollection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/myrelease.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/order_history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/others_comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/personal_center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/personal_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/publish_information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/teacher_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/unread_announcement.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/generator/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src=&quot;static</find>
+      <find>/charts</find>
+      <find>/tables</find>
+      <find>-</find>
+      <find>../assets</find>
+      <find>../</find>
+      <find>href</find>
+      <find>tables</find>
+      <find>maps</find>
+      <find>forms</find>
+      <find>components</find>
+      <find>charts</find>
+      <find>.html</find>
+      <find>backg</find>
+      <find>blue</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>src=&quot;</replace>
+      <replace>_</replace>
+      <replace>/admin</replace>
+      <replace>dark</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/tables/tables.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/maps/jqvmap.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/forms/forms.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/charts/charts.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/charts/sparkline.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/avatars.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/buttons.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/flaticons.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/font-awesome-icons.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/gridsystem.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/notifications.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/panels.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/simple-line-icons.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/sweetalert.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/components/typography.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/generator/CommentGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/SensitiveCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/advices/AsscessErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/search/entity/JobSearchEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/MailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/FileUploadUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/JwtTokenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/MailMqListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/advices/ExceptionControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/reptile/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/IndustriesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/ResumeApiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/TestEsAddDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/Jobs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/ESUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/AuthProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/Connect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/interceptor/EntityInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/ElasticSearchConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/AliPayConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/TransactionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginUrlEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/MyUsernamePasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginFailureHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginEntityHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/WebSecurityConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1040" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <abbreviatePackageNames ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PrivateTutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrivateTutor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\resources\static\images" />
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\resources\static" />
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\resources\templates" />
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\resources\templates\" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.czb.privatetutor.controllers.interceptor" />
+      <recent name="com.czb.privatetutor.security" />
+      <recent name="com.czb.privatetutor" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\java\com\czb\privatetutor\config" />
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\java\com\czb\privatetutor\utils" />
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\java\com\czb\privatetutor" />
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\java\com\czb\privatetutor\controllers" />
+      <recent name="H:\ZKing\Second\PrivateTutor\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Generator">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czb.privatetutor.generator.Generator" />
+      <module name="PrivateTutor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czb.privatetutor.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="PrivateTutor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czb.privatetutor.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czb.privatetutor.RunningApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Generator" />
+        <item itemvalue="Spring Boot.RunningApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ee1cd69-e23c-496f-8f13-b8db873a5a9d" name="Default Changelist" comment="" />
+      <created>1577351443801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577351443801</updated>
+      <workItem from="1577351446657" duration="4715000" />
+      <workItem from="1577411329869" duration="5919000" />
+      <workItem from="1577669075669" duration="5410000" />
+      <workItem from="1577706750241" duration="9910000" />
+      <workItem from="1577777976876" duration="8051000" />
+      <workItem from="1577866357100" duration="599000" />
+      <workItem from="1578380639696" duration="27902000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次项目上传">
+      <created>1578561871737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578561871737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62506000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13172804" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="第一次项目上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次项目上传" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/MailMqListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="60" column="59" lean-forward="true" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/reptile/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/IndustriesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/Jobs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/ESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/TestEsAddDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/ResumeApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#1292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/api/MailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/advices/ExceptionControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/common/SensitiveCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/advices/AsscessErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/Event.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/EventProductor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/EventConsumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/EventType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/MessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/handler/EmailHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/asyn/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/druid/YamlPropertySourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/ExceptionUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/UUIDUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/WebCode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/PayException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/StaticPool.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/FileUploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/APIResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/utils/Connect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/interceptor/EntityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/AliPayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/ElasticSearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/services/IUserServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/services/impl/userServicesImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/TransactionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginUrlEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/LoginEntityHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/AuthProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/security/MyUsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/generator/CommentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czb/privatetutor/generator/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PrivateTutor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

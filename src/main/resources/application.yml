@@ -1,0 +1,47 @@
+server:
+    port: 8080
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/privatetutor?useUnicode=true
+        username: root
+        password: czb0325.
+    mail:
+        host: smtp.163.com
+        username: 18216308307@163.com
+        password: m4gewo
+        default-encoding: UTF-8
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+                        required: true
+    thymeleaf:
+        mode: HTML
+        encoding: UTF-8
+        servlet:
+            content-type: text/html
+        cache: false
+        suffix: .html
+        prefix: classpath:/templates/
+    redis:
+        host: localhost
+        port: 6379
+        jedis:
+            pool:
+                max-wait: 30000
+                max-active: 100
+                max-idle: 20
+                min-idle: 0
+
+
+
+want:
+    mail:
+        senderName: want-conpany
+mybatis:
+    # spring boot集成mybatis的方式打印sql
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

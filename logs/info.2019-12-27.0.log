@@ -1,0 +1,303 @@
+2019-12-27 09:55:14,890 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 23368 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 09:55:14,894 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 09:55:14,954 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 09:55:14,954 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 09:55:16,507 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 09:55:16,831 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 09:55:16,837 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 09:55:16,873 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2019-12-27 09:55:17,402 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 09:55:17,937 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 09:55:17,947 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 09:55:17,948 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 09:55:17,949 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 09:55:18,170 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 09:55:18,171 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 3216 ms
+2019-12-27 09:55:18,359 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 09:55:18,562 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 09:55:19,164 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 09:55:19,239 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 09:55:19,879 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 08dd8b07-4aac-41d1-ae23-adaf6863dce1
+
+2019-12-27 09:55:19,991 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8b658d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cddd435, org.springframework.security.web.header.HeaderWriterFilter@dfa136d, org.springframework.security.web.csrf.CsrfFilter@4d17f1ea, org.springframework.security.web.authentication.logout.LogoutFilter@751c7702, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e862136, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@72fb8f88, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4380cbcf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3e27857a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@538f25ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3749a0a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7859e425, org.springframework.security.web.session.SessionManagementFilter@4d65a7fc, org.springframework.security.web.access.ExceptionTranslationFilter@7fd11e26, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@364e6949]
+2019-12-27 09:55:20,498 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 09:55:20,503 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 09:55:20,599 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 09:55:20,630 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 09:55:20,635 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 6.672 seconds (JVM running for 9.156)
+2019-12-27 09:55:22,255 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 09:55:22,255 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 09:55:22,268 INFO (FrameworkServlet.java:547)- Completed initialization in 12 ms
+2019-12-27 09:55:33,088 INFO (EpollProvider.java:68)- Starting without optional epoll library
+2019-12-27 09:55:33,090 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
+2019-12-27 10:00:48,406 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 26952 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 10:00:48,410 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 10:00:48,462 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 10:00:48,462 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 10:00:49,453 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 10:00:49,667 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 10:00:49,670 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 10:00:49,697 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2019-12-27 10:00:50,184 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:00:50,225 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:00:50,231 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:00:50,233 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@24bca245' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:00:50,234 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:00:50,239 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:00:50,724 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:00:50,733 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:00:50,734 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 10:00:50,734 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 10:00:50,951 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 10:00:50,952 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 2489 ms
+2019-12-27 10:00:51,166 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 10:00:51,405 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 10:00:51,969 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 2f745f8d-8eaa-4ddd-be2e-ebb9b956be33
+
+2019-12-27 10:00:52,086 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@119f1c27, org.springframework.security.web.context.SecurityContextPersistenceFilter@54b03d6d, org.springframework.security.web.header.HeaderWriterFilter@41d2a62, org.springframework.security.web.authentication.logout.LogoutFilter@5beb8dde, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@76f72d70, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bf2ca41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@221e6db9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b568cbe, org.springframework.security.web.session.SessionManagementFilter@490f5360, org.springframework.security.web.access.ExceptionTranslationFilter@71fd9096, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40750ecf]
+2019-12-27 10:00:52,314 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 10:00:52,407 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 10:00:53,277 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 10:00:53,286 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 10:00:53,366 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:00:53,393 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:00:53,398 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 5.942 seconds (JVM running for 8.122)
+2019-12-27 10:00:54,935 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 10:00:54,936 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:00:54,947 INFO (FrameworkServlet.java:547)- Completed initialization in 11 ms
+2019-12-27 10:00:59,967 INFO (EpollProvider.java:68)- Starting without optional epoll library
+2019-12-27 10:00:59,969 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
+2019-12-27 10:14:55,437 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 2060 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 10:14:55,442 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 10:14:55,488 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 10:14:55,488 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 10:14:56,510 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 10:14:56,794 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 10:14:56,797 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 10:14:56,842 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2019-12-27 10:14:57,350 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:14:57,391 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:14:57,394 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:14:57,397 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@544a2795' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:14:57,400 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:14:57,406 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:14:57,819 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:14:57,907 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:14:57,908 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 10:14:57,909 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 10:14:58,134 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 10:14:58,135 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 2647 ms
+2019-12-27 10:14:58,305 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 10:14:58,522 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 10:14:59,040 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 7dfa090c-3ab8-4178-99d6-6f7d30abd343
+
+2019-12-27 10:14:59,152 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@726262ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d715889, org.springframework.security.web.header.HeaderWriterFilter@3b3c5a95, org.springframework.security.web.authentication.logout.LogoutFilter@51ebb3ef, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@749b703d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3428c0c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b7e92f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@750b231e, org.springframework.security.web.session.SessionManagementFilter@7b49593e, org.springframework.security.web.access.ExceptionTranslationFilter@24fd77c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16ac38e0]
+2019-12-27 10:14:59,354 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 10:14:59,472 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 10:15:00,357 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 10:15:00,363 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 10:15:00,439 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:15:00,469 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:15:00,473 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 5.672 seconds (JVM running for 7.464)
+2019-12-27 10:15:29,160 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 10:15:29,161 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:15:29,169 INFO (FrameworkServlet.java:547)- Completed initialization in 8 ms
+2019-12-27 10:18:49,125 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 25148 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 10:18:49,130 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 10:18:49,177 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 10:18:49,178 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 10:18:50,110 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 10:18:50,330 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 10:18:50,333 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 10:18:50,353 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2019-12-27 10:18:50,741 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:18:50,779 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:18:50,782 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:18:50,784 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2035450c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:18:50,785 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:18:50,791 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:18:51,216 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:18:51,223 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:18:51,224 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 10:18:51,224 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 10:18:51,516 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 10:18:51,516 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 2338 ms
+2019-12-27 10:18:51,698 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 10:18:51,927 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 10:18:52,434 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 2de20fa9-5e47-4ba1-9f8d-8dee036767a8
+
+2019-12-27 10:18:52,534 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@726b3055, org.springframework.security.web.context.SecurityContextPersistenceFilter@804114b, org.springframework.security.web.header.HeaderWriterFilter@4f7ba8b2, org.springframework.security.web.authentication.logout.LogoutFilter@4e8ebeba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6dde8a2f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c68a583, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@540cb0b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@781374be, org.springframework.security.web.session.SessionManagementFilter@48d5827a, org.springframework.security.web.access.ExceptionTranslationFilter@569b174f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a5da6da]
+2019-12-27 10:18:52,741 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 10:18:52,845 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 10:18:53,750 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 10:18:53,788 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 10:18:53,901 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:18:53,925 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:18:53,930 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 5.621 seconds (JVM running for 7.841)
+2019-12-27 10:18:54,962 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 10:18:54,963 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:18:54,971 INFO (FrameworkServlet.java:547)- Completed initialization in 8 ms
+2019-12-27 10:19:15,312 INFO (EpollProvider.java:68)- Starting without optional epoll library
+2019-12-27 10:19:15,314 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
+2019-12-27 10:20:37,596 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 11616 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 10:20:37,599 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 10:20:37,645 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 10:20:37,645 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 10:20:38,570 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 10:20:38,811 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 10:20:38,818 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 10:20:38,852 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2019-12-27 10:20:39,273 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:20:39,305 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:20:39,311 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:20:39,313 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5b17d0fe' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:20:39,318 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:20:39,323 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:20:39,698 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:20:39,774 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:20:39,775 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 10:20:39,776 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 10:20:39,998 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 10:20:39,998 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 2352 ms
+2019-12-27 10:20:40,178 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 10:20:40,413 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 10:20:40,945 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 863ce605-22f2-40fc-8290-6b1df2057898
+
+2019-12-27 10:20:41,099 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d05187b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ae43ad3, org.springframework.security.web.header.HeaderWriterFilter@76775c3f, org.springframework.security.web.authentication.logout.LogoutFilter@571c58c9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41a7151c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb783, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c0a07fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ca21c20, org.springframework.security.web.session.SessionManagementFilter@3fc22a4b, org.springframework.security.web.access.ExceptionTranslationFilter@71ee8393, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@df0aea9]
+2019-12-27 10:20:41,351 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 10:20:41,468 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 10:20:42,353 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 10:20:42,360 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 10:20:42,443 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:20:42,471 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:20:42,474 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 5.577 seconds (JVM running for 7.561)
+2019-12-27 10:20:50,067 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 10:20:50,067 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:20:50,077 INFO (FrameworkServlet.java:547)- Completed initialization in 10 ms
+2019-12-27 10:21:35,595 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 27160 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 10:21:35,598 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 10:21:35,650 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 10:21:35,650 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 10:21:36,595 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 10:21:36,837 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 10:21:36,842 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 10:21:36,869 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2019-12-27 10:21:37,285 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:21:37,318 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:21:37,321 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:21:37,323 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a9c048f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:21:37,327 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:21:37,333 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:21:37,781 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:21:37,793 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:21:37,794 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 10:21:37,795 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 10:21:38,018 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 10:21:38,019 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 2368 ms
+2019-12-27 10:21:38,218 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 10:21:38,459 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 10:21:39,067 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: d5afe1a6-8426-4fd0-b9b1-16cb10c3a045
+
+2019-12-27 10:21:39,196 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58582fe3, org.springframework.security.web.context.SecurityContextPersistenceFilter@52a6bfb7, org.springframework.security.web.header.HeaderWriterFilter@72cdc59a, org.springframework.security.web.authentication.logout.LogoutFilter@4e440058, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@124fde12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b554274, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@530a4daa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@163d171e, org.springframework.security.web.session.SessionManagementFilter@db9f249, org.springframework.security.web.access.ExceptionTranslationFilter@1f8fbc56, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68f397b5]
+2019-12-27 10:21:39,427 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 10:21:39,528 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 10:21:40,413 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 10:21:40,420 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 10:21:40,502 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:21:40,533 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:21:40,537 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 5.699 seconds (JVM running for 7.957)
+2019-12-27 10:21:42,424 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 10:21:42,425 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:21:42,436 INFO (FrameworkServlet.java:547)- Completed initialization in 11 ms
+2019-12-27 10:21:44,929 INFO (EpollProvider.java:68)- Starting without optional epoll library
+2019-12-27 10:21:44,931 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
+2019-12-27 10:22:24,024 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 17688 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 10:22:24,029 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 10:22:24,081 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 10:22:24,082 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 10:22:25,051 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 10:22:25,264 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 10:22:25,267 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 10:22:25,295 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2019-12-27 10:22:25,702 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:22:25,754 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:22:25,760 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:22:25,763 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@77cf02d4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:22:25,765 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:22:25,770 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:22:26,257 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:22:26,266 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:22:26,266 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 10:22:26,267 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 10:22:26,477 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 10:22:26,478 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 2396 ms
+2019-12-27 10:22:26,656 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 10:22:26,879 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 10:22:27,462 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 4ffd263a-bb81-4e8a-8626-b9cc96ab2f65
+
+2019-12-27 10:22:27,579 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ddf0c4f, org.springframework.security.web.context.SecurityContextPersistenceFilter@daa838c, org.springframework.security.web.header.HeaderWriterFilter@49d58b57, org.springframework.security.web.authentication.logout.LogoutFilter@602644ce, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9928a4c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d638737, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47928507, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24410f10, org.springframework.security.web.session.SessionManagementFilter@e392f12, org.springframework.security.web.access.ExceptionTranslationFilter@38607fd1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e958caf]
+2019-12-27 10:22:27,774 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 10:22:27,870 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 10:22:28,728 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 10:22:28,733 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 10:22:28,815 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:22:28,843 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:22:28,846 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 5.622 seconds (JVM running for 7.865)
+2019-12-27 10:22:29,892 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 10:22:29,893 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:22:29,904 INFO (FrameworkServlet.java:547)- Completed initialization in 11 ms
+2019-12-27 10:22:53,707 INFO (EpollProvider.java:68)- Starting without optional epoll library
+2019-12-27 10:22:53,709 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
+2019-12-27 10:26:50,231 INFO (StartupInfoLogger.java:55)- Starting RunningApplication on DESKTOP-OKBD6RF with PID 10488 (H:\ZKing\Second\PrivateTutor\target\classes started by Administrator in H:\ZKing\Second\PrivateTutor)
+2019-12-27 10:26:50,236 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2019-12-27 10:26:50,285 INFO (DeferredLog.java:225)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-27 10:26:50,286 INFO (DeferredLog.java:225)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-27 10:26:51,269 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.czb.privatetutor]' package. Please check your configuration.
+2019-12-27 10:26:51,478 INFO (RepositoryConfigurationDelegate.java:249)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-27 10:26:51,481 INFO (RepositoryConfigurationDelegate.java:127)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-27 10:26:51,506 INFO (RepositoryConfigurationDelegate.java:187)- Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2019-12-27 10:26:51,897 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:26:51,939 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:26:51,945 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:26:51,949 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@45585bbe' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:26:51,953 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:26:51,957 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:26:52,428 INFO (TomcatWebServer.java:92)- Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:26:52,437 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:26:52,438 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2019-12-27 10:26:52,438 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 10:26:52,646 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2019-12-27 10:26:52,647 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 2361 ms
+2019-12-27 10:26:52,825 INFO (DruidDataSourceAutoConfigure.java:56)- Init DruidDataSource
+2019-12-27 10:26:53,039 INFO (DruidDataSource.java:930)- {dataSource-1} inited
+2019-12-27 10:26:53,624 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 9aaefb7d-1cc2-40f7-be32-3166b61acb5c
+
+2019-12-27 10:26:53,751 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b03844c, org.springframework.security.web.context.SecurityContextPersistenceFilter@72a920d7, org.springframework.security.web.header.HeaderWriterFilter@6477bf32, org.springframework.security.web.authentication.logout.LogoutFilter@6dc7ac26, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@699a3ee2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@652ac0c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@572caf43, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3be9f6f7, org.springframework.security.web.session.SessionManagementFilter@56b1a2d6, org.springframework.security.web.access.ExceptionTranslationFilter@7dd69d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@192d981b]
+2019-12-27 10:26:53,969 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-27 10:26:54,081 INFO (WelcomePageHandlerMapping.java:58)- Adding welcome page template: index
+2019-12-27 10:26:55,012 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2019-12-27 10:26:55,018 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-27 10:26:55,109 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8080"]
+2019-12-27 10:26:55,134 INFO (TomcatWebServer.java:204)- Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:26:55,138 INFO (StartupInfoLogger.java:61)- Started RunningApplication in 5.615 seconds (JVM running for 7.721)
+2019-12-27 10:26:55,617 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 10:26:55,617 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:26:55,625 INFO (FrameworkServlet.java:547)- Completed initialization in 7 ms
+2019-12-27 10:26:58,077 INFO (EpollProvider.java:68)- Starting without optional epoll library
+2019-12-27 10:26:58,079 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
